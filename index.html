@@ -5,6 +5,47 @@
 </head>
 <title>My Custom HTML Made Website!!</title>
 <body style="background-color:aqua">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+  body {font-family: Arial, Helvetica, sans-serif;}
+
+  .navbar {
+    width: 100%;
+    background-color: Black;
+    overflow: auto;
+  }
+
+  .navbar a {
+    float: left;
+    padding: 12px;
+    color: White;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .navbar a:hover {
+    background-color: Green;
+  }
+
+  .active {
+    background-color: Gray;
+  }
+
+  @media screen and (max-width: 1000px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+  }
+  </style>
+  <body>
+
+  <div class="navbar">
+    <a class="active" href="#"><i class="fa fa-fw fa-home"></i> Home</a>
+    <a href="#"><i class="fa fa-fw fa-globe"></i> Sources</a>
+  </div>
+
 <!-- The Main Code -->
 
 <h1 style="color:crimson;font-size:50px">My First Heading!</h1>
