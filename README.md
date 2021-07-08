@@ -5,4 +5,6 @@ I am learning HTML in my school! I just wanted to show it to you too!
 * My School!😜
 # My Code!
 ### Note: Before opening index.html, please download My Pic.JPG too.
-Added my code!
+# Updates
+I am hosting this webstie through Github! Link:
+#### Website Version: 1.9
