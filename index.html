@@ -4,7 +4,6 @@
   <title>My Custom HTML Made Website!</title>
     <link rel="icon" href="icon-nobg.png"
 </head>
-
 <body style="background-color:aqua">
   <div class="container">
    <img src="Loading.gif" alt="">
@@ -15,48 +14,58 @@
        $(".container").fadeOut("slow");
   });
 </script>
+<style>
+  body {font-family: Futura, Skia}
+</style>
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <style>
-  body {font-family: Arial, Helvetica, sans-serif;}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {margin:0;font-family: Futura, Helvetica, sans-serif}
 
-  .navbar {
-    width: 100%;
-    background-color: Black;
-    overflow: auto;
-  }
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
 
-  .navbar a {
-    float: left;
-    padding: 12px;
-    color: White;
-    text-decoration: none;
-    font-size: 17px;
-  }
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
 
-  .navbar a:hover {
-    background-color: Green;
-  }
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
 
-  .active {
-    background-color: Gray;
-  }
+.active {
+  background-color: Gray;
+}
 
-  @media screen and (max-width: 1000px) {
-    .navbar a {
-      float: none;
-      display: block;
-    }
-  }
-  </style>
-  <body>
-
+.main {
+  padding: 16px;
+  margin-top: 30px;
+  height: 1500px; /* Used in this example to enable scrolling */
+}
+</style>
+</head>
+<body>
   <div class="navbar">
     <a class="active" href="https://yb-g-personal.github.io/HTML/"><i class="fa fa-fw fa-home"></i> Home</a>
     <a href="https://yb-g-personal.github.io/HTML/index2"><i class="fa fa-fw fa-globe"></i> Sources</a>
     <a href="https://yb-g-personal.github.io/HTML/index3"><i class="fa fa-fw fa-book"></i> School Tasks</a>
-    <a href="https://github.com/yb-g-personal/HTML/blob/main/index.html"><i class="fa fa-fw fa-github"></i> Github Code</a>
+    <a href="https://github.com/yb-g-personal/HTML/blob/main/index.html"><i class="fa fa-fw fa-github-alt"></i> Github Code</a>
   </div>
+
+<div class="main">
 
 <!-- The Main Code -->
 
@@ -67,16 +76,15 @@
 <hr style="border-color:Black">
 
 <strong><em>My Picture!</em></strong>
-<img src="My Pic.JPG" alt="A picture" width="1440" height="900"
-
-<br>
-
+<img src="My Pic.JPG" alt="A picture" width="1440" height="900">
+<hr>
 <tagname>Hope you like that <i>picture!</i></tagname>
 <p>My favourite game is roblox! <a href="https://www.roblox.com/users/1711511734/profile">My roblox profile</a></p>
 
 <p>This is my favourite <a href="http://www.youtube.com/watch?v=5hEh9LiSzow">song!</a> </p>
 
 <p>I am going to show you all of the headings!</p>
+
 
 <h1>Hello!</h1>
 <h2>I am</h2>
@@ -86,6 +94,7 @@
 <h6>the heading formats!</h6>
 
 This page is getting Bigger and <big>Bigger!</big>
-<font size="1">If u see this, u are epic</font>
+<br>
+<font color="aqua">If u see this, u are epic</font>
 </body>
 </html>
