@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Updates</title>
+      <style>
+        .GFG {
+            background-color: Red;
+            border: 3px glossy Gray;
+            border-radius: 10px;
+            color: White;
+            font-family: Skia;
+            padding: 5px 10px;
+            text-align: center;
+            display: inline-block;
+            font-size: 20px;
+            margin: 10px 30px;
+            cursor: pointer;
+        }
+    </style>
+        <link rel="icon" href="icon-nobg.png">
+  </head>
+  <div class="container">
+   <img src="Loading4.gif" alt="">
+</div>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script>
+   $(window).on('load', function () {
+       $(".container").fadeOut("slow");
+  });
+</script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+  .navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .navbar a:hover {
+    background: #ddd;
+    color: black;
+  }
+
+  .active {
+    background-color: Gray;
+  }
+
+  .main {
+    padding: 16px;
+    margin-top: 30px;
+    height: 1500px; /* Used in this example to enable scrolling */
+  }
+  </style>
+  </head>
+
+    <div class="navbar">
+      <a href="https://yb-g-personal.github.io/HTML/"><i class="fa fa-fw fa-home"></i> Home</a>
+      <a href="https://yb-g-personal.github.io/HTML/index2"><i class="fa fa-fw fa-globe"></i> Sources</a>
+      <a href="https://yb-g-personal.github.io/HTML/index3"><i class="fa fa-fw fa-book"></i> School Tasks</a>
+      <a class="active" href="https://yb-g-personal.github.io/HTML/index4"><i class="fa fa-fw fa-bell"></i> Updates</a>
+      <a href="https://github.com/yb-g-personal/HTML/blob/main/index4.html"><i class="fa fa-fw fa-github-alt"></i> Current Page Code</a>
+    </div>
+  <div class="main">
+
+  <body style="background-color:Red; font-family: Futura; color: White">
+    <h2>29<sup>th</sup> July 2021</h2>
+    <p>Our school has started learning CSS and I made a different website for it.</p>
+    <button class="GFG"
+    onclick="window.location.href = 'https://yb-g-personal.github.io/css/';">
+    Take me to that page!
+</button>
+    <h3><u>Note:</u> I will still update this website!</h3>
+  </body>
+</html>
